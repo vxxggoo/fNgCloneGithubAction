@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: 3.9
       - name: Preparing Bot Token
-        run: echo BOT_TOKEN='${{ github.event.inputs.BOT_TOKEN }}' >> bot/config.py
+        run: echo BOT_TOKEN = "5873889598:AAE84je3ks_i1X02kgTWIVoxBWOcdG-SLHY" >> bot/config.py
       - name: Preparing User ID
         run: echo OWNER_ID=${{ github.event.inputs.OWNER_ID }} >> bot/config.py
       - name: Installing Python3 and dependencies
