@@ -31,7 +31,7 @@ def helper(update, context):
 
 # TODO Cancel Clones with /cancel command.
 @run_async
-@is_authorised
+# @is_authorised
 def cloneNode(update, context):
     args = update.message.text.split(" ")
     if len(args) > 1:
