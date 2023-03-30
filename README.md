@@ -34,6 +34,8 @@
 - glcone bot သုံးရန် token.pickle ဖိုင်ကို upload ပါ။ (ပထမဆုံးသုံးတဲ့အခါသာ လိုပါတယ်)ညွန်း အပေါ်ပုံ
 - (personal/private accounts ဖိုင်များတင်ရန်မလိုပါ)
 - Repo setting> secrests and variables > actions> New Repository Secret ကိုနှိပ်ပြီး Name နေရာတွင် BOT_TOKEN, secret value နေရာတွင် @BotFather မှ ရသော token ပထမဆုံးဖြည့်ပါ။
+![image](https://user-images.githubusercontent.com/119148169/228836734-b2015e70-9d53-4948-93f0-08b2079963b2.jpeg)
+
 
 ၂။ Actions tab ကို နှိပ်ပါ။
 
