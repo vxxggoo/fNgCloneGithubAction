@@ -19,7 +19,7 @@
 **ရိုက်ပါ။ ပီးမှ အထက်က CreateHere က tuto အတိုင်း token.pickle ထုတ်ပါ။ token.pickle လုပ်ရန် Credentials.json [CreateHere](https://telegra.ph/Create-credentialsjson-06-09) ဖိုင်လိုပါတယ်။**
 
 
-☢**Fclone သုံးမယ်ဆိုရင် Service accounts (SA) လိုပါတယ်။ ဖုန်းနဲ့ SA လုပ်ချင်သူများ [ဒီTutorials](https://t.me/drivetalkchannel/165) နဲ့ လုပ်ပါ။**
+☢**Fclone သုံးမယ်ဆိုရင် Service accounts (SA) လိုပါတယ်။ PC သို့မဟုတ် ဖုန်းနဲ့ SA လုပ်ချင်သူများ [ဒီTutorials](https://t.me/drivetalkchannel/165) နဲ့ လုပ်ပါ။**
 
 
 
