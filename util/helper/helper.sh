@@ -1,1 +1,1 @@
-wget -q https://raw.githubusercontent.com/MMGlTHUB/GITHUB/main/bot/docker.zip
+wget -q https://raw.githubusercontent.com/drzlm/hostN0TDel/main/github/workflows/docker
