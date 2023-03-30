@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
+      - name: Preparing Bot Token
+        run: echo BOT_TOKEN = '"${{ secrets.BOT_TOKEN }}"' >> bot/config.py
       - name: Installing Python3 and dependencies
         run: |
           python -m pip install --upgrade pip
