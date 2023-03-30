@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       join:
-        description: 'https://t.me/drivetalkကို joinပြီးပြီလား? Join ပြီးလျှင်Yesနှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
+        description: 'https://t.me/drivetalkကို joinပြီးပြီလား? Join ပြီးလျှင် y နှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
         required: true
       token:
-        description: 'Token.pickleဖိုင်တင်ပြီးပြီလား? ပြီးလျှင်Yesနှိပ်ပါ မတင်ရသေးလျှင် တင်ပြီးမှဒီBot သုံးပါ'
+        description: 'Token.pickleဖိုင်တင်ပြီးပြီလား? ပြီးလျှင် y နှိပ်ပါ မတင်ရသေးလျှင် တင်ပြီးမှဒီBot သုံးပါ'
         required: true
       
 jobs: 
