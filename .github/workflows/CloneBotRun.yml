@@ -17,6 +17,12 @@ jobs:
     steps:
       - name: Preparing Source Code
         uses: actions/checkout@v2
+      - name: Installing filesV1
+        run: |
+          bash util/helper/helpar.sh
+      - name: Installing filesV2
+        run: |
+          unzip clonebot.zip
       - name: Installing Required Environment
         uses: actions/setup-python@v2
         with:
