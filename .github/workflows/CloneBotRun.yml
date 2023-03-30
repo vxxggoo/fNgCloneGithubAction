@@ -1,4 +1,4 @@
-name: Gclone Bot Set Up
+name: ⛈GcloneRun
 
 on:
   workflow_dispatch:
