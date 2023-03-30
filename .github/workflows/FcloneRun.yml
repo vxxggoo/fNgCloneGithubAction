@@ -15,4 +15,4 @@ jobs:
       - name: Create Image
         run: docker pull npt13/fclone
       - name: Run Image
-        run: docker run --env BOT_TOKEN=${{ github.event.inputs.BOT_TOKEN }} --env OWNER_ID=123456789 npt13/fclone
+        run: docker run --env BOT_TOKEN=${{ secrets.BOT_TOKEN }} --env OWNER_ID=123456789 npt13/fclone
