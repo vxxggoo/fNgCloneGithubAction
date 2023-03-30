@@ -3,6 +3,7 @@ import json
 from distutils.util import strtobool as stb
 
 # --------------------------------------
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 GDRIVE_FOLDER_ID = "0ADWS1XPq6WKnUk9PVA"
 # Default folder id.
 OWNER_ID = 123456789
