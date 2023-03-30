@@ -1,0 +1,20 @@
+name: ⚫FcloneRun
+
+on:
+  workflow_dispatch:
+    inputs:
+      BOT_TOKEN:
+        description: 'BotFatherမှToken'
+        required: true
+      OWNER_ID:
+        description: 'Rose မှ Account id'
+        required: true
+jobs:
+  RUNNING:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Create Image
+        run: docker pull npt13/fclone
+      - name: Run Image
+        run: docker run --env BOT_TOKEN=${{ github.event.inputs.BOT_TOKEN }} --env OWNER_ID=${{ github.event.inputs.OWNER_ID }} npt13/fclone
