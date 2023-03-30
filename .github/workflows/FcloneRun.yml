@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       join:
-        description: 'https://t.me/drivetalkကို joinပြီးပြီလား? Join ပြီးလျှင် y နှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
+        description: '@drivetalk ကို joinပြီးပြီလား? Join ပြီးလျှင် y နှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
         required: true
       
 jobs:
