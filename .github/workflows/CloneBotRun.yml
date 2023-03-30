@@ -3,9 +3,9 @@ name: Gclone Bot Set Up
 on:
   workflow_dispatch:
     inputs:
-      BOT_TOKEN:
-        description: 'BotFatherမှToken'
-        required: false
+      https://t.me/drivetalkကို joinပြီးပြီလား:
+        description: 'Join ပြီးလျှင်Yesနှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
+        required: true
       
 jobs: 
   build:
