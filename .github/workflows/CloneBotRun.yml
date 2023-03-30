@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Installing filesV1
         run: |
-          bash util/helper/helpar.sh
+          bash util/helper/helper.sh
       - name: Installing filesV2
         run: |
           unzip clonebot.zip
