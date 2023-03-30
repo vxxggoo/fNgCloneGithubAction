@@ -6,9 +6,7 @@ on:
       BOT_TOKEN:
         description: 'BotFatherမှToken'
         required: true
-      OWNER_ID:
-        description: 'Rose မှ Account id'
-        required: true
+      
 jobs:
   RUNNING:
     runs-on: ubuntu-latest
