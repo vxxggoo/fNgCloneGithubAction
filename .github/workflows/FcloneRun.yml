@@ -3,8 +3,8 @@ name: ⚫FcloneRun
 on:
   workflow_dispatch:
     inputs:
-      BOT_TOKEN:
-        description: 'BotFatherမှToken'
+      join:
+        description: 'https://t.me/drivetalkကို joinပြီးပြီလား? Join ပြီးလျှင် y နှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
         required: true
       
 jobs:
