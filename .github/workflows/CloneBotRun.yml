@@ -3,8 +3,8 @@ name: Gclone Bot Set Up
 on:
   workflow_dispatch:
     inputs:
-      https://t.me/drivetalkကို joinပြီးပြီလား:
-        description: 'Join ပြီးလျှင်Yesနှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
+      join:
+        description: 'https://t.me/drivetalkကို joinပြီးပြီလား? Join ပြီးလျှင်Yesနှိပ်ပါ မjoin ရသေးလျှင် joinပြီးမှဒီBot သုံးပါ'
         required: true
       
 jobs: 
