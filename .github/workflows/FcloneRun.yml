@@ -9,7 +9,7 @@ on:
       
 jobs:
   RUNNING:
-    name: CloneBot Running
+    name: F-Clone Running
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
